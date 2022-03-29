@@ -1,6 +1,6 @@
 ﻿Imports System.Data.Sql
 Imports System.Data.SqlClient
-Public Class Form1
+Public Class Form_9
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Try
             Dim datos As String = "SELECT COUNT(*) FROM LOGIN WHERE USUARIO ='" & txtusuario.Text & "' and CONTRASENA ='" & txtcontrasena.Text & "' "
@@ -31,7 +31,7 @@ Public Class Form1
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Form2.Show()
+        Form_10.Show()
     End Sub
 
 

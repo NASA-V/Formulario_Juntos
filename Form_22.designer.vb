@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form_10
+Partial Class Form2
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -30,8 +30,6 @@ Partial Class Form_10
         Me.txtCNcontrasena = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -67,7 +65,7 @@ Partial Class Form_10
         'txtNusuario
         '
         Me.txtNusuario.Location = New System.Drawing.Point(127, 38)
-        Me.txtNusuario.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtNusuario.Margin = New System.Windows.Forms.Padding(2)
         Me.txtNusuario.Name = "txtNusuario"
         Me.txtNusuario.Size = New System.Drawing.Size(174, 20)
         Me.txtNusuario.TabIndex = 3
@@ -75,7 +73,7 @@ Partial Class Form_10
         'txtNcontrasena
         '
         Me.txtNcontrasena.Location = New System.Drawing.Point(127, 71)
-        Me.txtNcontrasena.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtNcontrasena.Margin = New System.Windows.Forms.Padding(2)
         Me.txtNcontrasena.Name = "txtNcontrasena"
         Me.txtNcontrasena.Size = New System.Drawing.Size(174, 20)
         Me.txtNcontrasena.TabIndex = 4
@@ -83,15 +81,15 @@ Partial Class Form_10
         'txtCNcontrasena
         '
         Me.txtCNcontrasena.Location = New System.Drawing.Point(127, 100)
-        Me.txtCNcontrasena.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtCNcontrasena.Margin = New System.Windows.Forms.Padding(2)
         Me.txtCNcontrasena.Name = "txtCNcontrasena"
         Me.txtCNcontrasena.Size = New System.Drawing.Size(174, 20)
         Me.txtCNcontrasena.TabIndex = 5
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(99, 141)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button1.Location = New System.Drawing.Point(65, 141)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(92, 27)
         Me.Button1.TabIndex = 6
@@ -100,40 +98,19 @@ Partial Class Form_10
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(209, 141)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button2.Location = New System.Drawing.Point(176, 141)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(2)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(92, 27)
         Me.Button2.TabIndex = 7
         Me.Button2.Text = "Agregar Usuario"
         Me.Button2.UseVisualStyleBackColor = True
         '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(99, 186)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 8
-        Me.Button3.Text = "Button3"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button4
-        '
-        Me.Button4.Location = New System.Drawing.Point(209, 184)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(2)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(92, 27)
-        Me.Button4.TabIndex = 9
-        Me.Button4.Text = "Cancelar"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(455, 246)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
+        Me.ClientSize = New System.Drawing.Size(338, 192)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.txtCNcontrasena)
@@ -142,7 +119,7 @@ Partial Class Form_10
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form2"
         Me.Text = "Form2"
         Me.ResumeLayout(False)
@@ -158,6 +135,4 @@ Partial Class Form_10
     Friend WithEvents txtCNcontrasena As TextBox
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
 End Class

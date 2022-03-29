@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form_9
+Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -54,7 +54,7 @@ Partial Class Form_9
         'txtusuario
         '
         Me.txtusuario.Location = New System.Drawing.Point(49, 43)
-        Me.txtusuario.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtusuario.Margin = New System.Windows.Forms.Padding(2)
         Me.txtusuario.Name = "txtusuario"
         Me.txtusuario.Size = New System.Drawing.Size(201, 20)
         Me.txtusuario.TabIndex = 2
@@ -62,7 +62,7 @@ Partial Class Form_9
         'txtcontrasena
         '
         Me.txtcontrasena.Location = New System.Drawing.Point(49, 89)
-        Me.txtcontrasena.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtcontrasena.Margin = New System.Windows.Forms.Padding(2)
         Me.txtcontrasena.Name = "txtcontrasena"
         Me.txtcontrasena.Size = New System.Drawing.Size(201, 20)
         Me.txtcontrasena.TabIndex = 3
@@ -70,7 +70,7 @@ Partial Class Form_9
         'Button1
         '
         Me.Button1.Location = New System.Drawing.Point(49, 132)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(98, 21)
         Me.Button1.TabIndex = 4
@@ -80,7 +80,7 @@ Partial Class Form_9
         'Button2
         '
         Me.Button2.Location = New System.Drawing.Point(152, 132)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(2)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(97, 21)
         Me.Button2.TabIndex = 5
@@ -100,7 +100,7 @@ Partial Class Form_9
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(293, 190)
+        Me.ClientSize = New System.Drawing.Size(298, 220)
         Me.Controls.Add(Me.lb1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
@@ -108,7 +108,7 @@ Partial Class Form_9
         Me.Controls.Add(Me.txtusuario)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
