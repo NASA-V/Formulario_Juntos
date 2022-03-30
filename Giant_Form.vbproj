@@ -101,6 +101,42 @@
       <DependentUpon>Form.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form3.designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.designer.vb">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_21.designer.vb">
+      <DependentUpon>Form_21.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_21.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_22.designer.vb">
+      <DependentUpon>Form_22.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_22.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_23.designer.vb">
+      <DependentUpon>Form_23.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_23.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form_20.designer.vb">
       <DependentUpon>Form_20.vb</DependentUpon>
     </Compile>
@@ -221,6 +257,7 @@
     <Compile Include="Form_1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Module1.vb" />
     <Compile Include="Module_5.vb" />
     <Compile Include="Module_4.vb" />
     <Compile Include="Module_2.vb" />
@@ -257,6 +294,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form.resx">
       <DependentUpon>Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_21.resx">
+      <DependentUpon>Form_21.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_22.resx">
+      <DependentUpon>Form_22.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_23.resx">
+      <DependentUpon>Form_23.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_20.resx">
       <DependentUpon>Form_20.vb</DependentUpon>

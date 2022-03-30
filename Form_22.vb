@@ -1,4 +1,4 @@
-﻿Public Class Form2
+﻿Public Class Form_22
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Dim x As String = txtNcontrasena.Text
         Dim n As String = txtCNcontrasena.Text
@@ -10,7 +10,7 @@
                 comando.Parameters.AddWithValue("@CONTRASENA", txtNcontrasena.Text.ToUpper)
                 comando.ExecuteNonQuery()
                 MsgBox("Usuario agregado")
-                Form1.Show()
+                Form_21.Show()
                 Me.Hide()
             Catch ex As Exception
                 MsgBox("Id ya existe")
@@ -24,7 +24,7 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Form1.Show()
+        Form_21.Show()
         Me.Hide()
 
     End Sub

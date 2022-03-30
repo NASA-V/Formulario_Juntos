@@ -1,7 +1,7 @@
 ﻿Imports System.Data.Sql
 Imports System.Data.SqlClient
 
-Public Class Form3
+Public Class Form_23
 
     Public superf3(99) As Label
     Public descrpcionf3(99) As Label

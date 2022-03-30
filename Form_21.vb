@@ -1,6 +1,6 @@
 ﻿Imports System.Data.Sql
 Imports System.Data.SqlClient
-Public Class Form1
+Public Class Form_21
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
 
         Dim st1 = txtusuario.Text
@@ -16,7 +16,7 @@ Public Class Form1
 
             If (n > 0) Then
                 MsgBox("INICIO DE SESION CORRECTO" & n)
-                Form3.Show()
+                Form_23.Show()
                 Me.Hide()
 
             Else
@@ -37,7 +37,7 @@ Public Class Form1
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Form2.Show()
+        Form_22.Show()
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs)
@@ -46,7 +46,7 @@ Public Class Form1
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs)
-        Form3.Show()
+        Form_23.Show()
 
 
     End Sub

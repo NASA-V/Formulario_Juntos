@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form_23
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class Form3
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,9 +20,10 @@ Partial Class Form_23
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form_23))
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form3))
         Me.SubMenu = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Button6 = New System.Windows.Forms.Button()
@@ -32,30 +33,20 @@ Partial Class Form_23
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button17 = New System.Windows.Forms.Button()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PanelLogo = New System.Windows.Forms.Panel()
         Me.txtbusqueda = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.carrito = New System.Windows.Forms.Button()
-        Me.carrito1 = New System.Windows.Forms.Button()
         Me.txt1 = New System.Windows.Forms.TextBox()
         Me.totalcarr = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.Button7 = New System.Windows.Forms.Button()
         Me.SubMenu.SuspendLayout()
         Me.Panel3.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'SubMenu
@@ -66,7 +57,7 @@ Partial Class Form_23
         Me.SubMenu.Location = New System.Drawing.Point(0, 50)
         Me.SubMenu.Margin = New System.Windows.Forms.Padding(2)
         Me.SubMenu.Name = "SubMenu"
-        Me.SubMenu.Size = New System.Drawing.Size(143, 699)
+        Me.SubMenu.Size = New System.Drawing.Size(143, 559)
         Me.SubMenu.TabIndex = 4
         '
         'Panel3
@@ -186,39 +177,12 @@ Partial Class Form_23
         '
         Me.OpenFileDialog1.FileName = "OpenFileDialog1"
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.Location = New System.Drawing.Point(244, 71)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(75, 86)
-        Me.PictureBox1.TabIndex = 55
-        Me.PictureBox1.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Location = New System.Drawing.Point(244, 196)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(2)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(75, 86)
-        Me.PictureBox2.TabIndex = 56
-        Me.PictureBox2.TabStop = False
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.Location = New System.Drawing.Point(244, 330)
-        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(2)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(75, 86)
-        Me.PictureBox3.TabIndex = 57
-        Me.PictureBox3.TabStop = False
-        '
         'PanelLogo
         '
         Me.PanelLogo.BackgroundImage = CType(resources.GetObject("PanelLogo.BackgroundImage"), System.Drawing.Image)
         Me.PanelLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PanelLogo.Dock = System.Windows.Forms.DockStyle.Right
-        Me.PanelLogo.Location = New System.Drawing.Point(1004, 0)
+        Me.PanelLogo.Location = New System.Drawing.Point(928, 0)
         Me.PanelLogo.Margin = New System.Windows.Forms.Padding(2)
         Me.PanelLogo.Name = "PanelLogo"
         Me.PanelLogo.Size = New System.Drawing.Size(119, 50)
@@ -262,62 +226,16 @@ Partial Class Form_23
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1123, 50)
+        Me.Panel1.Size = New System.Drawing.Size(1047, 50)
         Me.Panel1.TabIndex = 3
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.Location = New System.Drawing.Point(452, 196)
-        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(2)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(75, 86)
-        Me.PictureBox4.TabIndex = 58
-        Me.PictureBox4.TabStop = False
-        '
-        'PictureBox5
-        '
-        Me.PictureBox5.Location = New System.Drawing.Point(452, 71)
-        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(2)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(75, 86)
-        Me.PictureBox5.TabIndex = 58
-        Me.PictureBox5.TabStop = False
-        '
-        'PictureBox6
-        '
-        Me.PictureBox6.Location = New System.Drawing.Point(452, 330)
-        Me.PictureBox6.Margin = New System.Windows.Forms.Padding(2)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(75, 86)
-        Me.PictureBox6.TabIndex = 59
-        Me.PictureBox6.TabStop = False
-        '
-        'carrito
-        '
-        Me.carrito.Location = New System.Drawing.Point(334, 145)
-        Me.carrito.Margin = New System.Windows.Forms.Padding(2)
-        Me.carrito.Name = "carrito"
-        Me.carrito.Size = New System.Drawing.Size(56, 19)
-        Me.carrito.TabIndex = 67
-        Me.carrito.Text = "car"
-        Me.carrito.UseVisualStyleBackColor = True
-        '
-        'carrito1
-        '
-        Me.carrito1.Location = New System.Drawing.Point(334, 276)
-        Me.carrito1.Margin = New System.Windows.Forms.Padding(2)
-        Me.carrito1.Name = "carrito1"
-        Me.carrito1.Size = New System.Drawing.Size(56, 19)
-        Me.carrito1.TabIndex = 68
-        Me.carrito1.Text = "car"
-        Me.carrito1.UseVisualStyleBackColor = True
         '
         'txt1
         '
-        Me.txt1.Location = New System.Drawing.Point(632, 150)
+        Me.txt1.Location = New System.Drawing.Point(612, 139)
         Me.txt1.Margin = New System.Windows.Forms.Padding(2)
+        Me.txt1.Multiline = True
         Me.txt1.Name = "txt1"
-        Me.txt1.Size = New System.Drawing.Size(76, 20)
+        Me.txt1.Size = New System.Drawing.Size(144, 19)
         Me.txt1.TabIndex = 69
         '
         'totalcarr
@@ -329,22 +247,39 @@ Partial Class Form_23
         Me.totalcarr.TabIndex = 70
         Me.totalcarr.UseVisualStyleBackColor = True
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(716, 196)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(39, 13)
+        Me.Label1.TabIndex = 71
+        Me.Label1.Text = "Label1"
+        '
+        'BindingSource1
+        '
+        '
+        'Button7
+        '
+        Me.Button7.Location = New System.Drawing.Point(722, 293)
+        Me.Button7.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(56, 19)
+        Me.Button7.TabIndex = 72
+        Me.Button7.Text = "Button7"
+        Me.Button7.UseVisualStyleBackColor = True
+        '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
-        Me.ClientSize = New System.Drawing.Size(1123, 749)
+        Me.ClientSize = New System.Drawing.Size(765, 626)
+        Me.Controls.Add(Me.Button7)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.totalcarr)
         Me.Controls.Add(Me.txt1)
-        Me.Controls.Add(Me.carrito1)
-        Me.Controls.Add(Me.carrito)
-        Me.Controls.Add(Me.PictureBox6)
-        Me.Controls.Add(Me.PictureBox5)
-        Me.Controls.Add(Me.PictureBox4)
-        Me.Controls.Add(Me.PictureBox3)
-        Me.Controls.Add(Me.PictureBox2)
-        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Button17)
         Me.Controls.Add(Me.SubMenu)
         Me.Controls.Add(Me.Panel1)
@@ -353,14 +288,9 @@ Partial Class Form_23
         Me.Text = "Form3"
         Me.SubMenu.ResumeLayout(False)
         Me.Panel3.ResumeLayout(False)
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -374,19 +304,14 @@ Partial Class Form_23
     Friend WithEvents Button17 As Button
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
     Friend WithEvents Button6 As Button
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents PanelLogo As Panel
     Friend WithEvents txtbusqueda As TextBox
     Friend WithEvents Button1 As Button
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents PictureBox4 As PictureBox
-    Friend WithEvents PictureBox5 As PictureBox
-    Friend WithEvents PictureBox6 As PictureBox
-    Friend WithEvents carrito As Button
-    Friend WithEvents carrito1 As Button
     Friend WithEvents txt1 As TextBox
     Friend WithEvents totalcarr As Button
+    Friend WithEvents Label1 As Label
+    Friend WithEvents BindingSource1 As BindingSource
+    Friend WithEvents Button7 As Button
 End Class

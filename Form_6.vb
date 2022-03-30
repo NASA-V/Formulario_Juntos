@@ -364,4 +364,8 @@
     Private Sub Carrito0_Click(sender As Object, e As EventArgs) Handles Carrito0.Click
 
     End Sub
+
+    Private Sub Form_6_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
