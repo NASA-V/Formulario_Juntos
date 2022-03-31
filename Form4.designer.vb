@@ -22,43 +22,90 @@ Partial Class Form4
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.lb1 = New System.Windows.Forms.Label()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'lb1
+        'Label1
         '
-        Me.lb1.AutoSize = True
-        Me.lb1.Location = New System.Drawing.Point(256, 11)
-        Me.lb1.Name = "lb1"
-        Me.lb1.Size = New System.Drawing.Size(0, 17)
-        Me.lb1.TabIndex = 1
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(235, 34)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(137, 37)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Usuario "
         '
-        'DataGridView1
+        'Label2
         '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(12, 71)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.RowHeadersWidth = 51
-        Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(776, 326)
-        Me.DataGridView1.TabIndex = 2
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(212, 198)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(183, 37)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "Contraseña"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(135, 85)
+        Me.TextBox1.Multiline = True
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(328, 39)
+        Me.TextBox1.TabIndex = 2
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(135, 269)
+        Me.TextBox2.Multiline = True
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(328, 41)
+        Me.TextBox2.TabIndex = 3
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(145, 365)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(124, 54)
+        Me.Button1.TabIndex = 4
+        Me.Button1.Text = "Iniciar sesión"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(340, 365)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(108, 54)
+        Me.Button2.TabIndex = 5
+        Me.Button2.Text = "Registrarse"
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'Form4
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.DataGridView1)
-        Me.Controls.Add(Me.lb1)
+        Me.ClientSize = New System.Drawing.Size(580, 458)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
         Me.Name = "Form4"
         Me.Text = "Form4"
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents lb1 As Label
-    Friend WithEvents DataGridView1 As DataGridView
+
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
 End Class
